@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Interactive Animal Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Interactive Animal Photo Gallery</h1>
+    </header>
+    <main>
+        <div id="image">
+            Hover over an image below to display here.
+        </div>
+        <div class="gallery">
+            <img class="preview"
+                src="images/dog.jpg"
+                alt="A friendly dog sits in the garden"
+                onmouseover="upDate(this)"
+                onmouseleave="unDo()"
+                onfocus="upDate(this)"
+                onblur="unDo()">
+            <img class="preview"
+                src="images/rabbit.jpg"
+                alt="Cute rabbits sit on the grass"
+                onmouseover="upDate(this)"
+                onmouseleave="unDo()"
+                onfocus="upDate(this)"
+                onblur="unDo()">
+            <img class="preview"
+                src="images/cat.jpg"
+                alt="A cute cat looks at camera"
+                onmouseover="upDate(this)"
+                onmouseleave="unDo()"
+                onfocus="upDate(this)"
+                onblur="unDo()">
+            <img class="preview"
+                src="images/connhim.jpg"
+                alt="A small hedgehog rests on the ground"
+                onmouseover="upDate(this)"
+                onmouseleave="unDo()"
+                onfocus="upDate(this)"
+                onblur="unDo()">
+            <img class="preview"
+                src="images/hamster.jpg"
+                alt="A small hamster looks at camera"
+                onmouseover="upDate(this)"
+                onmouseleave="unDo()"
+                onfocus="upDate(this)"
+                onblur="unDo()">
+            <img class="preview"
+                src="images/capybara.jpg"
+                alt="Capybaras relax near the water"
+                onmouseover="upDate(this)"
+                onmouseleave="unDo()"
+                onfocus="upDate(this)"
+                onblur="unDo()">
+        </div>
+    </main>
+</body>
+</html>
